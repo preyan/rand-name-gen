@@ -5,6 +5,10 @@
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "homepage": "https://github.com/preyan/random-name?tab=readme-ov-file#name-gen",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/preyan/random-name"},
   "scripts": {
     "build": "tsup"
   },
