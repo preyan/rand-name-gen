@@ -5,7 +5,7 @@
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "homepage": "https://github.com/preyan/rand-name-gen?tab=readme-ov-file#name-gen",
+  "homepage": "https://github.com/preyan/rand-name-gen?tab=readme-ov-file#random-name-generator",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/preyan/rand-name-gen"
