@@ -1,18 +1,19 @@
+import { Name, NameOptions } from "./types";
+
 /**
  * Generate a random name based on the specified options.
+ *
  * @param title - Whether to include the title in the name.
  * @param firstName - Whether to include the first name in the name.
  * @param lastName - Whether to include the last name in the name.
  * @returns A randomly generated name based on the specified options.
+ *
  * @example
  * ```typescript
  * const name = randomName({ title: true, firstName: true, lastName: true });
  * console.log(name); // "Mr. John Doe"
  * ```
  */
-
-import { Name, NameOptions } from "./types";
-
 export async function randomName({
   title,
   firstName,

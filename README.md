@@ -5,8 +5,7 @@
 [![Last Commit](https://img.shields.io/github/last-commit/preyan/rand-name-gen)](https://img.shields.io/github/last-commit/preyan/rand-name-gen)
 
 <div align="center">
-    <!-- this logo needs to be fixed -->
-    <img src="./assets/rand-name-gen.svg" alt="Logo" width="200" height="45" style="object-fit: none; object-position: center;">
+    <img src="./assets/logo.png" alt="Logo" width="500">
 </div>
 
 ## Description
@@ -24,20 +23,22 @@ npm install rand-name-gen
 ## Usage
 
 ```javascript
-const nameGen = require("rand-name-gen");
-console.log(nameGen());
+const rand = require("rand-name-gen");
+console.log(rand.randomName()); // Output: { 'John Doe' }
+console.log(rand.randomName({ title: true, firstName: true, lastName: true })); // Output: { 'Mr. John Doe' }
 ```
 
 OR
 
 ```javascript
-import nameGen from "rand-name-gen";
-console.log(nameGen());
+import { randomName } from "rand-name-gen";
+console.log(randomName({ title: false, firstName: true, lastName: true })); // Output: { 'John Doe' }
+console.log(randomName({ title: true, firstName: true, lastName: true })); // Output: { 'Mr. John Doe' }
 ```
 
 ## API
 
-### randomName()
+- randomName()
 
 ## License
 
