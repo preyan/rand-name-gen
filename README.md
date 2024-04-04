@@ -46,4 +46,4 @@ This project is licensed under the MIT License.
 
 ## Author
 
-- [Preyan Bhowmick](www.github.com/preyan)
+[Preyan Bhowmick](https://github.com/preyan)
