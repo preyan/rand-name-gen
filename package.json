@@ -1,14 +1,14 @@
 {
-  "name": "random-name-gen",
+  "name": "rand-name-gen",
   "version": "0.0.1",
   "description": "Generate a random name every time",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "homepage": "https://github.com/preyan/random-name-gen?tab=readme-ov-file#name-gen",
+  "homepage": "https://github.com/preyan/rand-name-gen?tab=readme-ov-file#name-gen",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/preyan/random-name-gen"
+    "url": "git+https://github.com/preyan/rand-name-gen"
   },
   "scripts": {
     "build": "tsup"
