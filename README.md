@@ -5,6 +5,7 @@
 [![Last Commit](https://img.shields.io/github/last-commit/preyan/rand-name-gen)](https://img.shields.io/github/last-commit/preyan/rand-name-gen)
 
 <div align="center">
+    <!-- this logo needs to be fixed -->
     <img src="./assets/rand-name-gen.svg" alt="Logo" width="200" height="45" style="object-fit: none; object-position: center;">
 </div>
 
