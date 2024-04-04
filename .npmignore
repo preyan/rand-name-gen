@@ -1,6 +1,10 @@
+
 .env
 
 /node_modules
 /dist
+/src
 
 .vscode
+tsconfig.json
+tsup.config.ts
