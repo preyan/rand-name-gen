@@ -13,7 +13,7 @@
 
 import { Name, NameOptions } from "./types";
 
-async function randomName({
+export async function randomName({
   title,
   firstName,
   lastName,
@@ -40,10 +40,12 @@ async function randomName({
       } else {
         return `${user.name.first} ${user.name.last}`;
       }
+      /**
+       * TODO: Refactor the above code to be more concise. Ref. below code.       *
+       * [user.name.title, user.name.first, user.name.last].filter(boolean).join(" ");
+       */
     }
   )[0]; // Get the first item in the array since the API only returns one result but wraps it in an array
 
   return name || "John Doe"; // Return the name or a default name if the API fails
 }
-
-export default randomName;
