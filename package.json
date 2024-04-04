@@ -1,0 +1,21 @@
+{
+  "name": "random-name",
+  "version": "0.0.1",
+  "description": "Generates a random name",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "randon",
+    "name"
+  ],
+  "author": "preyan",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.3"
+  }
+}
