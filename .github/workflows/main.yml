@@ -1,4 +1,4 @@
-name: CI
+name: CI/CD
 
 on:
   push:
@@ -23,3 +23,8 @@ jobs:
 
       - name: Run linting and build
         run: npm run lint && npm run build
+
+      - name: Publish to NPM registry
+        run: |
+          echo "//registry.npmjs.org/:_authToken=\${{ secrets.NPM_TOKEN }}" > .npmrc
+          npm publish
