@@ -21,7 +21,6 @@
   "author": "preyan",
   "license": "MIT",
   "devDependencies": {
-    "@changesets/cli": "^2.27.1",
     "tsup": "^8.0.2",
     "typescript": "^5.4.3"
   }
