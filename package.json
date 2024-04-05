@@ -14,8 +14,8 @@
     "build": "tsup"
   },
   "keywords": [
-    "randon",
-    "name"
+    "randon-name",
+    "random-name-generator"
   ],
   "author": "preyan",
   "license": "MIT",
