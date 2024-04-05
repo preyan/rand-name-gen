@@ -1,13 +1,13 @@
 # rand-name-gen
 
-## 1.1.3
+## 1.1.5
 
 ### Patch Changes
 
-- fac918b: Finally added npm publish to Github workflow
+- Refactored code and update README.md
 
-## 1.1.2
+## 1.1.4
 
 ### Patch Changes
 
-- b96843f: Add changesets cli
+- Updated dependencies and refactored code

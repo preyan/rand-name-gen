@@ -44,6 +44,13 @@ console.log(randomName({ title: true, firstName: true, lastName: true })); // Ou
 ## API
 
 - randomName()
+  - Returns a random full name.
+- randomName({ title: true })
+  - Returns a random full name with a title.
+- randomName({ firstName: true })
+  - Returns a random first name.
+- randomName({ lastName: true })
+  - Returns a random last name.
 
 ## License
 

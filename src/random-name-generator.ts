@@ -24,28 +24,23 @@ export async function randomName({
 
   const name = data.results.map(
     (user: { name: { title: string; first: string; last: string } }) => {
-      // if (title && firstName && lastName) {
-      //   return `${user.name.title} ${user.name.first} ${user.name.last}`;
-      // } else if (title && firstName) {
-      //   return `${user.name.title} ${user.name.first}`;
-      // } else if (title && lastName) {
-      //   return `${user.name.title} ${user.name.last}`;
-      // } else if (firstName && lastName) {
-      //   return `${user.name.first} ${user.name.last}`;
-      // } else if (title) {
-      //   return `${user.name.title}`;
-      // } else if (firstName) {
-      //   return `${user.name.first}`;
-      // } else if (lastName) {
-      //   return `${user.name.last}`;
-      // } else {
-      //   return `${user.name.first} ${user.name.last}`;
-      // }
-      /**
-       * TODO: Refactor the above code to be more concise. Ref. below code.       *
-       * [user.name.title, user.name.first, user.name.last].filter(boolean).join(" ");
-       */
-      [user.name.title, user.name.first, user.name.last].filter(Boolean).join(" ");
+      if (title && firstName && lastName) {
+        return `${user.name.title} ${user.name.first} ${user.name.last}`;
+      } else if (title && firstName) {
+        return `${user.name.title} ${user.name.first}`;
+      } else if (title && lastName) {
+        return `${user.name.title} ${user.name.last}`;
+      } else if (firstName && lastName) {
+        return `${user.name.first} ${user.name.last}`;
+      } else if (title) {
+        return `${user.name.title}`;
+      } else if (firstName) {
+        return `${user.name.first}`;
+      } else if (lastName) {
+        return `${user.name.last}`;
+      } else {
+        return `${user.name.first} ${user.name.last}`;
+      }
     }
   )[0]; // Get the first item in the array since the API only returns one result but wraps it in an array
 
