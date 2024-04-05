@@ -4,18 +4,42 @@ This changelog is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.
 
 ## 1.2.0
 
-### Minor Changes
+### Changed
 
 - Update README.md documentation
 
 ## 1.1.5
 
-### Patch Changes
+### Changed
 
 - Refactored code and update README.md
 
 ## 1.1.4
 
-### Patch Changes
+### Changed
 
 - Updated dependencies and refactored code
+
+## 1.1.3
+
+### Changed
+
+- [unreleased] code refactoring
+
+## 1.1.2
+
+### Changed
+
+- [unreleased] code refactoring
+
+## 1.1.1
+
+### Changed
+
+- Updated logic and refactored code
+
+## 1.0.0
+
+### Added
+
+- Initial release
