@@ -11,7 +11,8 @@
     "url": "git+https://github.com/preyan/rand-name-gen"
   },
   "scripts": {
-    "build": "tsup"
+    "build": "tsup",
+    "lint": "tsc"
   },
   "keywords": [
     "randon-name",
@@ -20,6 +21,7 @@
   "author": "preyan",
   "license": "MIT",
   "devDependencies": {
+    "@changesets/cli": "^2.27.1",
     "tsup": "^8.0.2",
     "typescript": "^5.4.3"
   }
