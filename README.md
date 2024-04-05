@@ -43,7 +43,7 @@ console.log(randomName({ title: true, firstName: true, lastName: true })); // Ou
 
 ## API
 
-- `randomName()` - Returns a random full name.
+- `randomName()` - Returns a random full name without title.
 - `randomName({ title: true })` - Returns a random full name with a title.
 - `randomName({ firstName: true })` - Returns a random first name.
 - `randomName({ lastName: true })` - Returns a random last name.
@@ -51,6 +51,12 @@ console.log(randomName({ title: true, firstName: true, lastName: true })); // Ou
 - `randomName({ title: true, lastName: true })` - Returns a random last name with a title.
 - `randomName({ firstName: true, lastName: true })` - Returns a random first and last name.
 - `randomName({ title: true, firstName: true, lastName: true })` - Returns a random first and last name with a title.
+
+### Options
+
+- `title` - (Optional) - Boolean value to include a title.
+- `firstName` - (Optional) - Boolean value to include a first name.
+- `lastName` - (Optional) - Boolean value to include a last name.
 
 ## License
 
